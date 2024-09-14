@@ -32,7 +32,7 @@ To get started with the Smart Readme Generator, follow these steps:
 2. **Alternatively, you can clone the repository and install dependencies**:
 
    ```bash
-   git clone https://github.com/yourusername/smart-readme-generator.git
+   git clone https://github.com/yourusername/Smart-Readme-Generator.git
    cd smart-readme-generator
    npm install
    ```
