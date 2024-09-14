@@ -1,9 +1,12 @@
 {
   "name": "smart-readme-generator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A CLI tool to generate detailed and beautiful README files for your projects using OpenAI's GPT.",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "smart-readme-generator": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
