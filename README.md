@@ -129,5 +129,3 @@ Good documentation is crucial for successful projects. The **Smart Readme Genera
 Do you have any questions or suggestions? Feel free to reach out or contribute to the project! Together, let’s make README creation as enjoyable as the projects we build! 💌
 
 Happy coding! 🎉
-
----
