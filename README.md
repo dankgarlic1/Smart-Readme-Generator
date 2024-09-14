@@ -1,6 +1,4 @@
-Here’s an updated `README.md` that includes installation and usage instructions for your package, as well as information about the OpenAI API key:
 
----
 
 # 📝 Smart Readme Generator
 
