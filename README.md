@@ -4,6 +4,13 @@ Welcome to the **Smart Readme Generator**! This powerful CLI tool effortlessly c
 
 ---
 
+## 📢 **Versioning**
+
+- **Current Version:** `1.0.6`
+- **Deprecated Version:** `1.0.4` (Please use version `1.0.5` or above)
+
+---
+
 ## 🌍 Overview
 
 The **Smart Readme Generator** provides a streamlined approach to generating professional and articulate README files. With just a few prompts, you can create a comprehensive and polished README that clearly communicates your project's purpose and usage. 🎨
@@ -41,6 +48,16 @@ To get started with the Smart Readme Generator, follow these steps:
 
 ---
 
+## 🔄 Update Instructions
+
+To update to the latest version globally:
+
+```bash
+npm update -g smart-readme-generator
+```
+
+---
+
 ## 💡 Usage Instructions
 
 To generate your README, follow these steps:
@@ -51,12 +68,14 @@ To generate your README, follow these steps:
    smart-readme-generator
    ```
 
-2. **Provide your OpenAI API key**:
+2. **Make sure to run this command in a directory where your `package.json` is present.**
+
+3. **Provide your OpenAI API key**:
 
    - You will be prompted to provide your OpenAI API key. You can choose to load it from a `.env` file, a `.env.local` file, or paste it manually.
 
-3. **Answer the prompts**:
-   - Follow the prompts to input details about your project. The tool will use your responses to generate a well-structured README file.
+4. **Answer the prompts**:
+   - Follow the prompts to input details about your project. You will also have an option to specify any custom notes, such as preferences for the tone or style of the README (e.g., witty, funny, arrogant, formal). If you are unable to run this command in a directory where package.json is present You can include your tech stack here to get the best result.
 
 Your README will be generated and saved as `README.md` in your current directory. ✨
 
@@ -71,9 +90,6 @@ file:///C:/Users/Dell/AppData/Roaming/npm/node_modules/smart-readme-generator/no
 throw new Errors.OpenAIError("The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).");
 ^
 OpenAIError: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
-at new OpenAI (file:///C:/Users/Dell/AppData/Roaming/npm/node_modules/smart-readme-generator/node_modules/openai/index.mjs:30:19)
-at file:///C:/Users/Dell/AppData/Roaming/npm/node_modules/smart-readme-generator/index.js:15:16
-at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
 ```
 
 **Solution/Approach:**
@@ -117,6 +133,18 @@ This project relies on several key dependencies:
 - **dotenv**: For loading environment variables from a `.env` file. `^16.4.5`
 - **inquirer**: For prompting users for input. `^10.2.2`
 - **openai**: For interacting with the OpenAI API. `^4.61.0`
+
+---
+
+## 🛠️ Tech Stack
+
+The **Smart Readme Generator** is built using the following technologies:
+
+- **Node.js**: JavaScript runtime for executing the CLI tool.
+- **npm**: Package manager for managing dependencies.
+- **OpenAI API**: For generating README content.
+- **inquirer**: For handling command-line prompts.
+- **dotenv**: For managing environment variables.
 
 ---
 
