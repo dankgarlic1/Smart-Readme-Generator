@@ -4,6 +4,8 @@ import fs from "fs";
 import OpenAI from "openai";
 import dotenv from "dotenv";
 import path from "path";
+
+// Determine which .env file to use
 const envFilePath = fs.existsSync(path.join(process.cwd(), ".env.local"))
   ? ".env.local"
   : ".env";
@@ -11,12 +13,12 @@ const envFilePath = fs.existsSync(path.join(process.cwd(), ".env.local"))
 // Load environment variables from the determined file
 dotenv.config({ path: envFilePath });
 
-// Initialize OpenAI
+// Initialize OpenAI with a placeholder API key
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.OPENAI_API_KEY || "", // Empty key to handle errors later
 });
 
-// Function to ask for the API key source (environment file or manual input)
+// Function to ask for the API key source
 const apiKeyQuestions = [
   {
     type: "list",
