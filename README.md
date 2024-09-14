@@ -7,7 +7,7 @@ Welcome to the **Smart Readme Generator**! This powerful CLI tool effortlessly c
 ## 📢 **Versioning**
 
 - **Current Version:** `1.0.6`
-- **Deprecated Version:** `1.0.4` (Please use version `1.0.5` or above)
+- **Deprecated Version:** `<1.0.5` (Please use version `1.0.5` or above)
 
 ---
 
